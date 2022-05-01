@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Open+Sans:ital,wght@1,400;1,600&family=Roboto:wght@100;300&family=Square+Peg&display=swap');
+
+
+.parallax-header{
+	background: #000;
+	background: linear-gradient( 
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.8)
+		),
+		url(https://c4.wallpaperflare.com/wallpaper/214/66/406/development-programming-language-programming-web-development-hd-wallpaper-preview.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: sans-serif;
+}
+
+.header-content{
+	padding: 100px 0 150px 0;
+}
+
+
+.navbar-brand
+{
+  font-family: sans-serif;
+  
+  color:navy;
+  font-size: 50px;
+  margin: 0px;
+}
+
+
+
+#information {
+    background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center center fixed;
+    
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8);
+
+}
+
+#information .panel {
+    opacity: 0.85;
+}
+
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.content{
+    
+    
+	margin-top: -80px;
+	background: rgb(8, 10, 10);
+	box-shadow: 0 0 20px -6px rgba(7, 228, 99, 0.2);
+}
+
+.content .left{
+	padding-top: 20px;
+}
+
+.content .right{
+	padding: 0;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.content .bottom{
+	background: #dc3545;
+	padding: 20px;
+}
+
+.primary-color{
+	color: #dc3545;
+}
+
+#unicorn {
+  background: url(https://images.pexels.com/photos/5223887/pexels-photo-5223887.jpeg?auto=compress&cs=tinysrgb&w=1600) no-repeat center center fixed;
+  
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:teal;
+  background-color: teal;
+
+}
+
+
+#portfolio{
+	background:url(https://images.unsplash.com/photo-1527674742215-114e5e1254d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=800) no-repeat center center fixed;
+	display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8)
+}
+
+
+#story{
+	background:url(https://images.unsplash.com/photo-1617957848811-9c07f14d7ba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80) no-repeat center center fixed;
+	display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8)
+}
+
+
+#team{
+	background:url(https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=639&q=80) no-repeat center center fixed;
+	display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8)
+}
+
+
+#awards{
+	background:url(https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80) no-repeat center center fixed;
+	display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8)
+}
+
+
+
+#awards1{
+	background:url(https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80) no-repeat center center fixed;
+	display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8)
+}
+
+#contact{
+	background:url(https://images.unsplash.com/photo-1617957848811-9c07f14d7ba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80) no-repeat center center fixed;
+	display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8)
+}
+
+#inquire{
+	background:url(https://images.unsplash.com/photo-1617957848811-9c07f14d7ba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80) no-repeat center center fixed;
+	display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(0, 4, 7, 0.8)
+}
+
+
